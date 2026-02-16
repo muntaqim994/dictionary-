@@ -1,0 +1,5 @@
+
+student = {"name": "Ali", "age": 21, "city": "Delhi"}
+print(len(student))
+for i in student:
+    print(i ,":",student.get(i))
