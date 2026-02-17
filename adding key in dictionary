@@ -1,0 +1,4 @@
+student_grades ={"ahi":92,"bob":85}
+student_grades["bob"]=0
+for key,value in student_grades.items():
+    print(key,":",value)
