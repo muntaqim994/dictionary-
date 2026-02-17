@@ -1,0 +1,4 @@
+student_grades ={"ahi":92,"bob":85,"bihari":78,"aman":95}
+keys=student_grades.keys()
+for i in sorted(keys):
+    print(i)
