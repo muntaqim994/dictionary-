@@ -1,0 +1,11 @@
+n ={"ahi":92,"bob":85,"bihari":78,"aman":92}
+n1=list(n.values())
+n2=[]
+count=0
+for i in n1:
+    if i not in n2:
+        n2.append(i)
+for j in n2:
+    if n1.count(j)>1:
+        count+=1
+print(count)
